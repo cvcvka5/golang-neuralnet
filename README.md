@@ -40,5 +40,7 @@ fmt.Printf("Prediction: %.2f\n", result[0])
 ## Example: Color Classifier
 The current implementation includes a dataset designed to train the network to distinguish between Warm and Cool colors based on RGB values.
 
+---
+
 #### Developer Note
 This project was built to understand the "magic" behind the math. Every gradient update and weight tweak is handled manually to ensure a deep understanding of how information flows through a neural network.
