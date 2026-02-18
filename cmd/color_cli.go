@@ -2,9 +2,10 @@ package main
 
 import (
 	"fmt"
-	"neuralnet/dataset"
-	nnet "neuralnet/pkg"
-	"neuralnet/pkg/activation"
+
+	dataset "github.com/cvcvka5/golang-neuralnet/dataset"
+	nnet "github.com/cvcvka5/golang-neuralnet/pkg"
+	"github.com/cvcvka5/golang-neuralnet/pkg/activation"
 )
 
 func main() {

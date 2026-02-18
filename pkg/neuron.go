@@ -1,6 +1,6 @@
 package internal
 
-import "neuralnet/pkg/activation"
+import "github.com/cvcvka5/golang-neuralnet/pkg/activation"
 
 type Connection struct {
 	Other  *Neuron

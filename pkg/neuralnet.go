@@ -5,9 +5,10 @@ import (
 	"errors"
 	"fmt"
 	"math/rand"
-	"neuralnet/pkg/activation"
-	"neuralnet/pkg/loss"
 	"os"
+
+	"github.com/cvcvka5/golang-neuralnet/pkg/activation"
+	"github.com/cvcvka5/golang-neuralnet/pkg/loss"
 )
 
 type Network struct {
